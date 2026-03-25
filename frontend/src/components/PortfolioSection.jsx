@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, MapPin, TrendingUp, Clock } from 'lucide-react';
-import { portfolioProjects } from '../data/mock';
+import { portfolioProjects, companyInfo } from '../data/mock';
 
 const PortfolioSection = () => {
   const [activeProject, setActiveProject] = useState(0);
@@ -121,15 +121,25 @@ const PortfolioSection = () => {
                 </div>
               </div>
 
-              <button
-                onClick={() => {
-                  const element = document.getElementById('contact');
-                  if (element) element.scrollIntoView({ behavior: 'smooth' });
-                }}
-                className="bg-brand-gold hover:bg-brand-gold/90 text-white px-8 py-4 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                Obtenir les mêmes résultats
-              </button>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href={companyInfo.calendlyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-brand-gold hover:bg-brand-gold/90 text-white px-8 py-4 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg text-center"
+                >
+                  Réserver un appel découverte
+                </a>
+                <button
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) element.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="border-2 border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white px-8 py-4 rounded-md font-semibold transition-all duration-300"
+                >
+                  Demander un devis
+                </button>
+              </div>
             </div>
           </div>
 

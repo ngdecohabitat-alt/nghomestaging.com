@@ -64,6 +64,33 @@ const ContactSection = () => {
               Demander un devis gratuit
             </h3>
             
+            {/* Calendly CTA */}
+            <div className="mb-6 p-4 bg-white rounded-lg border-2 border-brand-gold/30">
+              <p className="text-sm text-brand-black mb-3 font-semibold">
+                💬 Préférez-vous échanger directement avec nous ?
+              </p>
+              <a
+                href={companyInfo.calendlyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-brand-gold hover:bg-brand-gold/90 text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 text-center"
+              >
+                📅 Réserver un appel découverte gratuit
+              </a>
+              <p className="text-xs text-gray-600 mt-2 text-center">
+                Choisissez votre créneau en 2 clics
+              </p>
+            </div>
+
+            <div className="relative mb-6">
+              <div className="absolute inset-0 flex items-center">
+                <div className="w-full border-t border-gray-400"></div>
+              </div>
+              <div className="relative flex justify-center text-sm">
+                <span className="px-4 bg-brand-taupe text-gray-600">ou remplissez le formulaire</span>
+              </div>
+            </div>
+            
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-brand-black mb-2">

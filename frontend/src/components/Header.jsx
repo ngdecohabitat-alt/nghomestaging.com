@@ -76,12 +76,14 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               <span className="text-sm font-medium">{companyInfo.phone}</span>
             </a>
-            <button
-              onClick={() => scrollToSection('contact')}
+            <a
+              href={companyInfo.calendlyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-brand-gold text-white px-6 py-2.5 rounded-md hover:bg-brand-gold/90 transition-all duration-300 font-medium shadow-sm hover:shadow-md"
             >
-              Devis Gratuit
-            </button>
+              Prendre RDV
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -114,12 +116,14 @@ const Header = () => {
                   <Phone className="w-4 h-4" />
                   <span className="text-sm font-medium">{companyInfo.phone}</span>
                 </a>
-                <button
-                  onClick={() => scrollToSection('contact')}
-                  className="w-full bg-brand-gold text-white px-6 py-3 rounded-md hover:bg-brand-gold/90 transition-all duration-300 font-medium"
+                <a
+                  href={companyInfo.calendlyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-brand-gold text-white px-6 py-3 rounded-md hover:bg-brand-gold/90 transition-all duration-300 font-medium block text-center"
                 >
-                  Devis Gratuit
-                </button>
+                  Prendre RDV
+                </a>
               </div>
             </nav>
           </div>

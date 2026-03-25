@@ -67,18 +67,20 @@ const HeroSection = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <button
-              onClick={scrollToContact}
+            <a
+              href={companyInfo.calendlyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2"
             >
-              <span>Demander un devis gratuit</span>
+              <span>Réserver un appel découverte</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
             <button
-              onClick={scrollToPortfolio}
+              onClick={scrollToContact}
               className="bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border-2 border-white/30 px-8 py-4 rounded-md font-semibold text-lg transition-all duration-300 flex items-center justify-center"
             >
-              Voir nos réalisations
+              Demander un devis
             </button>
           </div>
 

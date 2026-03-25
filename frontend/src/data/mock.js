@@ -7,6 +7,7 @@ export const companyInfo = {
   serviceArea: "Moselle et Luxembourg",
   phone: "+33 6 30 21 80 17",
   email: "ngdeco.habitat@gmail.com",
+  calendlyUrl: "https://calendly.com/ng-homestaging/appeldecouverte",
   description: "Expert en home staging et valorisation immobilière, NG Déco & Habitat transforme vos espaces pour créer le coup de cœur qui accélère la vente."
 };
 
