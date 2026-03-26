@@ -14,39 +14,86 @@ export const companyInfo = {
 export const services = [
   {
     id: 1,
-    title: "Home Staging Complet",
-    description: "Mise en valeur complète de votre bien immobilier pour séduire les acheteurs potentiels et accélérer la vente.",
+    title: "Audits Home Staging",
+    description: "Diagnostic professionnel de votre bien avec plan d'action personnalisé pour optimiser sa valorisation.",
     details: [
-      "Désencombrement et réorganisation des espaces",
-      "Optimisation de la lumière et de l'agencement",
-      "Décoration neutre et élégante",
-      "Mise en scène professionnelle"
+      "Analyse complète de votre bien",
+      "Identification des points à améliorer",
+      "Recommandations sur-mesure",
+      "Différentes formules selon vos besoins"
     ],
-    icon: "home"
+    icon: "home",
+    offerings: [
+      {
+        name: "Audit Simple",
+        price: "200 € - 250 €",
+        duration: "1h30 - 2h",
+        features: [
+          "Visite complète du bien",
+          "Conseils oraux personnalisés",
+          "Mini compte-rendu",
+          "Remboursé si prestation complète signée"
+        ],
+        highlight: "Idéal pour un premier diagnostic"
+      },
+      {
+        name: "Audit + Compte Rendu",
+        price: "250 € - 350 €",
+        features: [
+          "Tout de l'audit simple",
+          "Plan d'action structuré et détaillé",
+          "Priorisation des actions",
+          "Suggestions mobilier et couleurs"
+        ],
+        highlight: "Recommandé"
+      },
+      {
+        name: "Audit Premium",
+        price: "350 € - 450 €",
+        features: [
+          "Tout de l'audit + compte rendu",
+          "Visuels et projections 3D",
+          "Accompagnement suivi (WhatsApp/Visio)",
+          "Support pendant 1 mois"
+        ],
+        highlight: "Solution complète"
+      }
+    ]
   },
   {
     id: 2,
-    title: "Coaching Déco",
-    description: "Conseils personnalisés pour valoriser votre intérieur selon vos goûts et votre budget.",
+    title: "Home Staging Partiel",
+    description: "Valorisation ciblée jusqu'à 2 pièces principales pour un impact immédiat à budget maîtrisé.",
     details: [
-      "Diagnostic déco personnalisé",
-      "Conseils couleurs et aménagement",
-      "Shopping list sur mesure",
-      "Suivi et accompagnement"
+      "Visite + plan d'action",
+      "Désencombrement / réagencement",
+      "Accessoires + petite déco (en prêt)",
+      "Liste shopping si besoin",
+      "Mise en scène finale"
     ],
-    icon: "palette"
+    icon: "palette",
+    price: "450 € - 750 €",
+    priceDetails: "jusqu'à 2 pièces",
+    additionalPrice: "+150/200 € par pièce supplémentaire",
+    note: "Hors location mobilier (en option) et achats spécifiques"
   },
   {
     id: 3,
-    title: "Valorisation Investisseurs",
-    description: "Optimisation de vos biens locatifs pour attirer les meilleurs locataires et maximiser votre rentabilité.",
+    title: "Home Staging Complet",
+    description: "Transformation complète de votre bien pour maximiser son attractivité et accélérer la vente au meilleur prix.",
     details: [
-      "Aménagement fonctionnel et attractif",
-      "Décoration tendance et durable",
-      "Maximisation de l'attractivité locative",
-      "Conseil en investissement immobilier"
+      "Diagnostic complet",
+      "Désencombrement accompagné",
+      "Optimisation des flux / lumière",
+      "Mise en scène complète",
+      "Accessoires fournis (prêt)",
+      "Option location mobilier léger",
+      "Photos professionnelles"
     ],
-    icon: "trendingUp"
+    icon: "trendingUp",
+    price: "900 € - 1 800 €",
+    priceDetails: "selon taille du bien",
+    note: "Hors location mobilier (en option) et achats spécifiques"
   }
 ];
 
