@@ -14,7 +14,7 @@ export const companyInfo = {
 export const services = [
 {
   id: 1,
-  title: "Audits Home Staging",
+  title: "Audit Home Staging",
   description: "Diagnostic professionnel de votre bien avec plan d'action personnalisé pour optimiser sa valorisation.",
   details: [
   "Analyse complète de votre bien",
