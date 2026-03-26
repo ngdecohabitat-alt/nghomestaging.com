@@ -110,13 +110,13 @@ export const portfolioProjects = [
 },
 {
   id: 2,
-  title: "Rénovation Salon Familial",
-  location: "Moselle",
+  title: "Location Courte Durée",
+  location: "Lisbonne",
   beforeImage: "https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/w3tw9uzn_salon%20avant.jpg",
   afterImage: "https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/4btt5rph_Salon%20moderne%20avec%20canap%C3%A9%20gris.png",
-  description: "Mise en valeur d'un espace de vie avec désencombrement, nouvelle décoration et mise en scène chaleureuse.",
-  result: "Vendu en 2 mois",
-  priceIncrease: "+5% sur le prix initial"
+  description: "Préparation d'un appartement 2 chambres vide pour de la location courte durée qui a ensuite été vendu en 1 semaine.",
+  result: "Vendu en 1 semaine",
+  priceIncrease: "Mise en location réussie"
 },
 {
   id: 3,
