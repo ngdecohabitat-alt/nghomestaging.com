@@ -141,38 +141,23 @@ export const portfolioProjects = [
 
 
 export const testimonials = [
-{
-  id: 1,
-  name: "Sophie M.",
-  location: "Basse-Ham",
-  rating: 5,
-  text: "Grâce à NG Déco & Habitat, notre maison s'est vendue en moins d'un mois ! La transformation était incroyable et les acheteurs ont eu le coup de cœur dès la première visite.",
-  project: "Home staging complet"
-},
-{
-  id: 2,
-  name: "Marc D.",
-  location: "Thionville",
-  rating: 5,
-  text: "Service professionnel et résultats au-delà de nos attentes. L'équipe a su mettre en valeur notre bien et nous avons vendu 8% au-dessus de notre prix initial.",
-  project: "Valorisation immobilière"
-},
-{
-  id: 3,
-  name: "Catherine L.",
-  location: "Luxembourg",
-  rating: 5,
-  text: "Un accompagnement personnalisé et une véritable expertise. Nos locataires ont été séduits immédiatement grâce à l'aménagement réalisé par NG Déco & Habitat.",
-  project: "Valorisation investisseur"
-},
-{
-  id: 4,
-  name: "Pierre & Émilie R.",
-  location: "Moselle",
-  rating: 5,
-  text: "Réactivité, professionnalisme et créativité ! Notre appartement a été transformé et vendu en un temps record. Je recommande vivement !",
-  project: "Home staging"
-}];
+  {
+    id: 1,
+    name: "Sophie M.",
+    location: "Basse-Ham",
+    rating: 5,
+    text: "Grâce à NG Déco & Habitat, notre maison s'est vendue en moins d'un mois ! La transformation était incroyable et les acheteurs ont eu le coup de cœur dès la première visite.",
+    project: "Home staging complet"
+  },
+  {
+    id: 2,
+    name: "Marc D.",
+    location: "Thionville",
+    rating: 5,
+    text: "Service professionnel et résultats au-delà de nos attentes. L'équipe a su mettre en valeur notre bien et nous avons vendu 8% au-dessus de notre prix initial.",
+    project: "Valorisation immobilière"
+  }
+];
 
 
 export const stats = [
@@ -237,7 +222,12 @@ export const faqs = [
 {
   question: "Le home staging garantit-il la vente ?",
   answer: "Si nous ne pouvons garantir la vente à 100%, nos statistiques montrent que 95% de nos biens sont vendus en moins de 3 mois, avec une plus-value moyenne de 8% sur le prix de vente. Le home staging est un investissement rentable qui accélère significativement le processus."
-}];
+},
+{
+  question: "Proposez-vous d'autres services complémentaires ?",
+  answer: "Oui ! Nous travaillons avec un réseau de partenaires de confiance pour vous proposer : nettoyage professionnel avant shooting, reportage photo professionnel, home organiser, bricoleurs pour petits travaux et réparations, location de mobilier, déménageurs et garde-meubles. Nous coordonnons l'ensemble pour vous faciliter la vie."
+}
+];
 
 
 export const images = {

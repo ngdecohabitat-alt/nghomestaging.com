@@ -3,6 +3,7 @@ import { Phone, Mail, MapPin, Star, ChevronDown, Menu, X } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ServicesSection from '../components/ServicesSection';
+import PartnerServicesSection from '../components/PartnerServicesSection';
 import PortfolioSection from '../components/PortfolioSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import StatsSection from '../components/StatsSection';
@@ -20,6 +21,7 @@ const Home = () => {
         <StatsSection />
         <AboutSection />
         <ServicesSection />
+        <PartnerServicesSection />
         <PortfolioSection />
         <TestimonialsSection />
         <FAQSection />
