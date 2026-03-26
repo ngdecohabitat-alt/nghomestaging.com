@@ -202,7 +202,7 @@ export const benefits = [
 },
 {
   title: "Valorisation du Prix",
-  description: "Augmentez la valeur perçue de votre bien et vendez jusqu'à 10% au-dessus du prix initial.",
+  description: "Augmentez la valeur per\xE7ue de votre bien et r\xE9duisez la n\xE9gociation \xE0 3% du prix du march\xE9.",
   icon: "trendingUp"
 },
 {
