@@ -132,7 +132,7 @@ export const portfolioProjects = [
   id: 4,
   title: "Cuisine Élégante",
   location: "Thionville",
-  beforeImage: "https://images.unsplash.com/photo-1578177154072-bbbd429d496f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxlbXB0eSUyMGtpdGNoZW4lMjByZW5vdmF0aW9uJTIwYmVmb3JlfGVufDB8fHx8MTc3NDU0OTcwOHww&ixlib=rb-4.1.0&q=85",
+  beforeImage: "https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/rmrt58wq_ChatGPT%20Image%2026%20mars%202026%2C%2020_01_42.png",
   afterImage: "https://images.unsplash.com/photo-1613545564259-ede280773613",
   description: "Modernisation d'une cuisine avec touches élégantes et valorisation des volumes.",
   result: "Vendu en 6 semaines",
