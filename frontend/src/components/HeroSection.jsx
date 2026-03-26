@@ -21,11 +21,11 @@ const HeroSection = () => {
     <section id="accueil" className="relative min-h-screen flex items-center pt-20">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
+        <img
           src={images.hero}
           alt="Intérieur élégant"
-          className="w-full h-full object-cover"
-        />
+          className="w-full h-full object-cover" />
+
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
       </div>
 
@@ -45,8 +45,8 @@ const HeroSection = () => {
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-stone-200 mb-8 leading-relaxed">
-            Transformez votre bien immobilier en coup de cœur grâce à notre expertise en home staging et valorisation déco.
+          <p className="text-xl md:text-2xl text-stone-200 mb-8 leading-relaxed">Transformez votre bien immobilier en coup de cœur grâce à notre expertise en home staging et valorisation immobilière.
+
           </p>
 
           {/* Key Points */}
@@ -71,25 +71,25 @@ const HeroSection = () => {
               href={companyInfo.calendlyUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2"
-            >
+              className="group bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
+
               <span>Réserver un appel découverte</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <button
               onClick={scrollToContact}
-              className="bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border-2 border-white/30 px-8 py-4 rounded-md font-semibold text-lg transition-all duration-300 flex items-center justify-center"
-            >
+              className="bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border-2 border-white/30 px-8 py-4 rounded-md font-semibold text-lg transition-all duration-300 flex items-center justify-center">
+
               Demander un devis
             </button>
           </div>
 
           {/* Contact Info */}
           <div className="mt-10 pt-8 border-t border-white/20">
-            <a 
+            <a
               href={`tel:${companyInfo.phone}`}
-              className="inline-flex items-center space-x-3 text-white hover:text-amber-400 transition-colors group"
-            >
+              className="inline-flex items-center space-x-3 text-white hover:text-amber-400 transition-colors group">
+
               <div className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center group-hover:bg-amber-500 transition-colors">
                 <Phone className="w-5 h-5" />
               </div>
@@ -108,8 +108,8 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-white/50 rounded-full"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
