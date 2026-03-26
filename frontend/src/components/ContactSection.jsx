@@ -63,6 +63,16 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold text-brand-black mb-6 font-display">
               Demander un devis gratuit
             </h3>
+
+            {/* Form temporarily disabled notice */}
+            <div className="mb-6 p-4 bg-amber-50 border-2 border-amber-200 rounded-lg">
+              <p className="text-sm text-amber-800 font-semibold mb-2">
+                📝 Formulaire temporairement désactivé
+              </p>
+              <p className="text-xs text-amber-700">
+                Veuillez nous contacter par téléphone ou réserver un appel découverte ci-dessous.
+              </p>
+            </div>
             
             {/* Calendly CTA */}
             <div className="mb-6 p-4 bg-white rounded-lg border-2 border-brand-gold/30">
@@ -103,7 +113,8 @@ const ContactSection = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition-all"
+                  disabled
+                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
                   placeholder="Votre nom"
                 />
               </div>
@@ -119,7 +130,8 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition-all"
+                  disabled
+                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
                   placeholder="votre@email.com"
                 />
               </div>
@@ -135,7 +147,8 @@ const ContactSection = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition-all"
+                  disabled
+                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
                   placeholder="+33 6 00 00 00 00"
                 />
               </div>
@@ -149,7 +162,8 @@ const ContactSection = () => {
                   name="propertyType"
                   value={formData.propertyType}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition-all"
+                  disabled
+                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
                 >
                   <option value="">Sélectionnez un type</option>
                   <option value="appartement">Appartement</option>
@@ -169,25 +183,20 @@ const ContactSection = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
+                  disabled
                   rows="5"
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition-all resize-none"
+                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60 resize-none"
                   placeholder="Décrivez-nous votre projet..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-brand-gold hover:bg-brand-gold/90 text-white px-8 py-4 rounded-md font-semibold transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                disabled
+                className="w-full bg-gray-400 text-white px-8 py-4 rounded-md font-semibold cursor-not-allowed opacity-60 flex items-center justify-center space-x-2"
               >
-                {isSubmitting ? (
-                  <span>Envoi en cours...</span>
-                ) : (
-                  <>
-                    <Send className="w-5 h-5" />
-                    <span>Envoyer ma demande</span>
-                  </>
-                )}
+                <Send className="w-5 h-5" />
+                <span>Formulaire désactivé</span>
               </button>
 
               <p className="text-xs text-gray-600 text-center">
