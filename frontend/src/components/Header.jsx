@@ -46,9 +46,9 @@ const Header = () => {
               className="flex items-center"
             >
               <img 
-                src="https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/c03lb60e_Transparent%20-LOGO%20NG%20DECO.png"
-                alt="NG Déco & Habitat"
-                className="h-12 w-auto"
+                src="https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/n47v9c1f_NOUVEAU%20LOGO.png"
+                alt="Nayara Garcia Home Staging"
+                className="h-16 w-auto"
               />
             </button>
           </div>

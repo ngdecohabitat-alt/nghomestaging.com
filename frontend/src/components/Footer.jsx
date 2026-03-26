@@ -20,9 +20,9 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/c03lb60e_Transparent%20-LOGO%20NG%20DECO.png"
-                alt="NG Déco & Habitat Logo"
-                className="h-16 w-auto"
+                src="https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/n47v9c1f_NOUVEAU%20LOGO.png"
+                alt="Nayara Garcia Home Staging Logo"
+                className="h-20 w-auto bg-white rounded-full p-2"
               />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
