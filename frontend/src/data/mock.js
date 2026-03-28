@@ -127,7 +127,7 @@ export const portfolioProjects = [
   id: 3,
   title: "Valorisation Pièce Vide",
   location: "Luxembourg",
-  beforeImage: "https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/j90pjq7c_24%20mars%202026%2C%2012_33_10.png",
+  beforeImage: "https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/1ub5qcf3_ChatGPT%20Image%2028%20mars%202026%2C%2012_06_12.png",
   afterImage: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224",
   description: "Transformation d'une pièce vide en espace de vie accueillant grâce à un aménagement optimisé.",
   result: "Vendu en 1 mois",
