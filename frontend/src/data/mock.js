@@ -31,6 +31,19 @@ export const services = [
   icon: "home",
   offerings: [
   {
+    name: "Audit Express en Ligne",
+    price: "150 € - 180 €",
+    duration: "Visuels + Visio 1h",
+    features: [
+    "Vous envoyez photos/vidéos de votre bien",
+    "Analyse à distance par nos experts",
+    "Rendez-vous visio pour recommandations",
+    "Compte-rendu PDF détaillé",
+    "Idéal pour clients éloignés ou budget serré"],
+
+    highlight: "💻 100% à distance - Prix mini"
+  },
+  {
     name: "Audit Simple",
     price: "200 € - 250 €",
     duration: "1h30 - 2h",
