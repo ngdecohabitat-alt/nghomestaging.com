@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Send, CheckCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, CheckCircle, Instagram, Facebook, Linkedin } from 'lucide-react';
 import { companyInfo, images } from '../data/mock';
 import { toast } from 'sonner';
 
@@ -264,9 +264,43 @@ const ContactSection = () => {
                   <CheckCircle className="w-5 h-5 text-brand-gold" />
                   <span className="text-sm">Devis gratuit et sans engagement</span>
                 </div>
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 mb-6">
                   <CheckCircle className="w-5 h-5 text-brand-gold" />
                   <span className="text-sm">Intervention rapide en Moselle & Luxembourg</span>
+                </div>
+                
+                {/* Social Media in Contact Section */}
+                <div className="pt-4 border-t border-gray-700">
+                  <p className="text-sm text-gray-300 mb-3">Suivez-nous sur les réseaux</p>
+                  <div className="flex items-center space-x-3">
+                    <a 
+                      href={companyInfo.socialMedia.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-brand-gold rounded-full flex items-center justify-center hover:bg-brand-gold/80 transition-colors"
+                      aria-label="Instagram"
+                    >
+                      <Instagram className="w-5 h-5 text-white" />
+                    </a>
+                    <a 
+                      href={companyInfo.socialMedia.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-brand-gold rounded-full flex items-center justify-center hover:bg-brand-gold/80 transition-colors"
+                      aria-label="Facebook"
+                    >
+                      <Facebook className="w-5 h-5 text-white" />
+                    </a>
+                    <a 
+                      href={companyInfo.socialMedia.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-brand-gold rounded-full flex items-center justify-center hover:bg-brand-gold/80 transition-colors"
+                      aria-label="LinkedIn"
+                    >
+                      <Linkedin className="w-5 h-5 text-white" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

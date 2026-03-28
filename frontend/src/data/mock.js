@@ -8,6 +8,11 @@ export const companyInfo = {
   phone: "+33 6 30 21 80 17",
   email: "ngdeco.habitat@gmail.com",
   calendlyUrl: "https://calendly.com/ng-homestaging/appeldecouverte",
+  socialMedia: {
+    instagram: "https://www.instagram.com/nghomestaging/",
+    facebook: "https://www.facebook.com/nghomestaging",
+    linkedin: "https://www.linkedin.com/in/nghomestaging/"
+  },
   description: "Expert en home staging et valorisation immobili\xE8re, nous transformons vos espaces pour cr\xE9er le coup de c\u0153ur qui acc\xE9l\xE8re la vente."
 };
 

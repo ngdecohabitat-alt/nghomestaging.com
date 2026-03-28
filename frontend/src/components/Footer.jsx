@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Heart } from 'lucide-react';
+import { Phone, Mail, MapPin, Heart, Instagram, Facebook, Linkedin } from 'lucide-react';
 import { companyInfo } from '../data/mock';
 
 const Footer = () => {
@@ -36,6 +36,37 @@ const Footer = () => {
                 className="h-12 w-12 object-contain bg-white rounded-full p-1"
               />
               <span className="text-sm text-gray-400">Membre associé Home Staging Brasil</span>
+            </div>
+            
+            {/* Social Media Links */}
+            <div className="flex items-center space-x-4 mt-6">
+              <a 
+                href={companyInfo.socialMedia.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors group"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
+              </a>
+              <a 
+                href={companyInfo.socialMedia.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors group"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
+              </a>
+              <a 
+                href={companyInfo.socialMedia.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-gold transition-colors group"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
+              </a>
             </div>
           </div>
 
