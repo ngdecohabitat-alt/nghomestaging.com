@@ -241,5 +241,5 @@ export const images = {
   about: "https://images.unsplash.com/photo-1772567732955-22e60eaec0ec",
   services: "https://images.unsplash.com/photo-1707299231603-6c0a93e0f7fa",
   cta: "https://images.unsplash.com/photo-1772112334897-7e249a9ad811",
-  contact: "https://images.pexels.com/photos/36464518/pexels-photo-36464518.jpeg"
+  contact: "https://customer-assets.emergentagent.com/job_ng-homestaging/artifacts/flewnwaf_Couverture%20facebook%20%282%29.png"
 };
