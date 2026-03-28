@@ -4,7 +4,7 @@ export const companyInfo = {
   name: "NG Déco & Habitat",
   tagline: "Vendez plus vite et au meilleur prix grâce au home staging",
   location: "Basse-Ham, Moselle",
-  serviceArea: "Moselle et Luxembourg",
+  serviceArea: "Moselle, Meurthe et Moselle, Luxembourg (me contacter pour d'autres zones)",
   phone: "+33 6 30 21 80 17",
   email: "ngdeco.habitat@gmail.com",
   calendlyUrl: "https://calendly.com/ng-homestaging/appeldecouverte",
@@ -20,7 +20,8 @@ export const services = [
 {
   id: 1,
   title: "Audit Home Staging",
-  description: "Diagnostic professionnel de votre bien avec plan d'action personnalisé pour optimiser sa valorisation.",
+  badge: "Idéal petit budget",
+  description: "Diagnostic professionnel de votre bien avec plan d'action personnalisé pour optimiser sa valorisation. L'audit simple est déduit de votre prestation complète.",
   details: [
   "Analyse complète de votre bien",
   "Identification des points à améliorer",
@@ -37,7 +38,7 @@ export const services = [
     "Visite complète du bien",
     "Conseils oraux personnalisés",
     "Mini compte-rendu",
-    "Remboursé si prestation complète signée"],
+    "✨ Déduit de la facture si prestation complète signée"],
 
     highlight: "Idéal pour un premier diagnostic"
   },

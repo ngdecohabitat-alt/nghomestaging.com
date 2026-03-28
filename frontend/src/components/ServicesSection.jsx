@@ -37,6 +37,13 @@ const ServicesSection = () => {
                 key={service.id}
                 className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-all duration-300 group relative overflow-hidden"
               >
+                {/* Badge if exists */}
+                {service.badge && (
+                  <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                    {service.badge}
+                  </div>
+                )}
+                
                 {/* Icon */}
                 <div className="w-16 h-16 bg-brand-gold/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-gold group-hover:scale-110 transition-all duration-300">
                   <IconComponent className="w-8 h-8 text-brand-gold group-hover:text-white transition-colors" />
