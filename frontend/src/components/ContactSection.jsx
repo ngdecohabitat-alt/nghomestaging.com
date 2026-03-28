@@ -58,151 +58,110 @@ const ContactSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* Contact Form */}
+          {/* Contact Methods - Left Side */}
           <div className="bg-brand-taupe rounded-lg p-8">
             <h3 className="text-2xl font-bold text-brand-black mb-6 font-display">
-              Demander un devis gratuit
+              Contactez-nous
             </h3>
-
-            {/* Form temporarily disabled notice */}
-            <div className="mb-6 p-4 bg-amber-50 border-2 border-amber-200 rounded-lg">
-              <p className="text-sm text-amber-800 font-semibold mb-2">
-                📝 Formulaire temporairement désactivé
-              </p>
-              <p className="text-xs text-amber-700">
-                Veuillez nous contacter par téléphone ou réserver un appel découverte ci-dessous.
-              </p>
-            </div>
             
             {/* Calendly CTA */}
-            <div className="mb-6 p-4 bg-white rounded-lg border-2 border-brand-gold/30">
-              <p className="text-sm text-brand-black mb-3 font-semibold">
-                💬 Préférez-vous échanger directement avec nous ?
+            <div className="mb-6 p-6 bg-white rounded-lg border-2 border-brand-gold/30">
+              <p className="text-base text-brand-black mb-4 font-semibold">
+                💬 Réservez votre créneau en 2 clics
               </p>
               <a
                 href={companyInfo.calendlyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-brand-gold hover:bg-brand-gold/90 text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 text-center"
+                className="block w-full bg-brand-gold hover:bg-brand-gold/90 text-white px-6 py-4 rounded-md font-semibold transition-all duration-300 text-center shadow-md hover:shadow-lg"
               >
                 📅 Réserver un appel découverte gratuit
               </a>
-              <p className="text-xs text-gray-600 mt-2 text-center">
-                Choisissez votre créneau en 2 clics
-              </p>
             </div>
 
-            <div className="relative mb-6">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-gray-400"></div>
+            {/* Direct Contact Options */}
+            <div className="space-y-4">
+              <div className="bg-white p-6 rounded-lg">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-brand-gold rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-600 mb-1">Appelez-nous directement</p>
+                    <a 
+                      href={`tel:${companyInfo.phone}`}
+                      className="text-xl font-bold text-brand-black hover:text-brand-gold transition-colors"
+                    >
+                      {companyInfo.phone}
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div className="relative flex justify-center text-sm">
-                <span className="px-4 bg-brand-taupe text-gray-600">ou remplissez le formulaire</span>
+
+              <div className="bg-white p-6 rounded-lg">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-brand-gold rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-600 mb-1">Envoyez-nous un email</p>
+                    <a 
+                      href={`mailto:${companyInfo.email}`}
+                      className="text-lg font-semibold text-brand-black hover:text-brand-gold transition-colors break-all"
+                    >
+                      {companyInfo.email}
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-brand-gold rounded-lg flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm text-gray-600 mb-1">Zone d'intervention</p>
+                    <p className="text-lg font-semibold text-brand-black">{companyInfo.serviceArea}</p>
+                    <p className="text-sm text-gray-600 mt-1">Basés à {companyInfo.location}</p>
+                  </div>
+                </div>
               </div>
             </div>
-            
-            <form onSubmit={handleSubmit} className="space-y-5">
-              <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-brand-black mb-2">
-                  Nom complet *
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  disabled
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
-                  placeholder="Votre nom"
-                />
-              </div>
 
-              <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-brand-black mb-2">
-                  Email *
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  disabled
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
-                  placeholder="votre@email.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-sm font-semibold text-brand-black mb-2">
-                  Téléphone *
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  required
-                  disabled
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
-                  placeholder="+33 6 00 00 00 00"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="propertyType" className="block text-sm font-semibold text-brand-black mb-2">
-                  Type de bien
-                </label>
-                <select
-                  id="propertyType"
-                  name="propertyType"
-                  value={formData.propertyType}
-                  onChange={handleChange}
-                  disabled
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60"
+            {/* Social Media */}
+            <div className="mt-6 pt-6 border-t border-gray-300">
+              <p className="text-sm font-semibold text-brand-black mb-3">Suivez-nous sur les réseaux</p>
+              <div className="flex items-center space-x-3">
+                <a 
+                  href={companyInfo.socialMedia.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center hover:bg-brand-gold/80 transition-colors"
+                  aria-label="Instagram"
                 >
-                  <option value="">Sélectionnez un type</option>
-                  <option value="appartement">Appartement</option>
-                  <option value="maison">Maison</option>
-                  <option value="local-commercial">Local commercial</option>
-                  <option value="autre">Autre</option>
-                </select>
+                  <Instagram className="w-6 h-6 text-white" />
+                </a>
+                <a 
+                  href={companyInfo.socialMedia.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center hover:bg-brand-gold/80 transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="w-6 h-6 text-white" />
+                </a>
+                <a 
+                  href={companyInfo.socialMedia.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center hover:bg-brand-gold/80 transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="w-6 h-6 text-white" />
+                </a>
               </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-brand-black mb-2">
-                  Votre message *
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  disabled
-                  rows="5"
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 bg-gray-100 cursor-not-allowed opacity-60 resize-none"
-                  placeholder="Décrivez-nous votre projet..."
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                disabled
-                className="w-full bg-gray-400 text-white px-8 py-4 rounded-md font-semibold cursor-not-allowed opacity-60 flex items-center justify-center space-x-2"
-              >
-                <Send className="w-5 h-5" />
-                <span>Formulaire désactivé</span>
-              </button>
-
-              <p className="text-xs text-gray-600 text-center">
-                * Champs obligatoires. Vos données sont protégées et ne seront jamais partagées.
-              </p>
-            </form>
+            </div>
           </div>
 
           {/* Contact Info */}
