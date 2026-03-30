@@ -232,7 +232,7 @@ export const faqs = [
 },
 {
   question: "Combien de temps dure une prestation ?",
-  answer: "Une prestation complète de home staging se réalise généralement en 2 à 4 semaines, de la première visite à la mise en scène finale. Pour un coaching déco, comptez 1 à 2 semaines selon vos besoins."
+  answer: "Une prestation complète de home staging se réalise généralement en 2 à 4 semaines, de la première visite à la mise en scène finale. Pour un audit, les conseils sont donnés lors de la visite ou transmis sous 3 jours en cas d'option avec rapport écrit."
 },
 {
   question: "Intervenez-vous uniquement en Moselle Ouest ?",
