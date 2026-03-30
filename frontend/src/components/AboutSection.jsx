@@ -43,7 +43,7 @@ const AboutSection = () => {
             </p>
 
             <p className="text-gray-700 mb-8 leading-relaxed">
-              Basés à <strong>{companyInfo.location}</strong>, nous offrons une approche sur-mesure et une réactivité qui fait la différence. Contrairement aux généralistes, nous nous concentrons exclusivement sur la valorisation immobilière pour vous garantir des résultats concrets.
+              Basés à <strong>Basse-Ham (Moselle Ouest)</strong>, nous intervenons dans un rayon de 30 km autour de Thionville. Spécialistes de la valorisation immobilière, nous proposons une approche sur-mesure et une réactivité qui font la différence, avec un seul objectif : vous garantir des résultats concrets.
             </p>
 
             {/* Benefits Grid */}
