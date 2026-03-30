@@ -236,7 +236,7 @@ export const faqs = [
 },
 {
   question: "Intervenez-vous uniquement en Moselle Ouest ?",
-  answer: "Nous intervenons principalement en Moselle Ouest et au Luxembourg. N'hésitez pas à nous contacter pour tout projet dans ces zones, nous nous déplaçons rapidement."
+  answer: "Nous intervenons principalement dans un rayon de 30 km autour de Thionville (Moselle Ouest) et au Luxembourg. N'hésitez pas à nous contacter pour tout projet dans une autre zone. Nous proposons une formule d'audit à distance avec photos et vidéos."
 },
 {
   question: "Le home staging garantit-il la vente ?",
