@@ -31,17 +31,15 @@ export const services = [
   icon: "home",
   offerings: [
   {
-    name: "Audit Express en Ligne",
+    name: "Conseil à Distance",
     price: "150 € - 180 €",
-    duration: "Visuels + Visio 1h",
+    duration: "Visuels + Analyse",
     features: [
-    "Vous envoyez photos/vidéos de votre bien",
-    "Analyse à distance par nos experts",
-    "Rendez-vous visio pour recommandations",
-    "Compte-rendu PDF détaillé",
-    "Idéal pour clients éloignés ou budget serré"],
-
-    highlight: "💻 100% à distance - Prix mini"
+    "Compte rendu PDF clair et actionnable",
+    "👉 Idéal si vous êtes éloigné ou souhaitez un premier avis rapide",
+    "⚠️ Basé uniquement sur vos visuels – pour une analyse complète, un audit sur place est recommandé"
+    ],
+    highlight: "💻 100% à distance"
   },
   {
     name: "Audit Simple",
@@ -50,10 +48,11 @@ export const services = [
     features: [
     "Visite complète du bien",
     "Conseils oraux personnalisés",
-    "Mini compte-rendu",
-    "✨ Déduit de la facture si prestation complète signée"],
-
-    highlight: "Idéal pour un premier diagnostic"
+    "Synthèse des points clés",
+    "👉 Idéal pour identifier rapidement les axes d'amélioration",
+    "✨ Déduit de la facture si prestation complète signée"
+    ],
+    highlight: "Premier diagnostic"
   },
   {
     name: "Audit + Compte Rendu",
@@ -62,8 +61,9 @@ export const services = [
     "Tout de l'audit simple",
     "Plan d'action structuré et détaillé",
     "Priorisation des actions",
-    "Suggestions mobilier et couleurs"],
-
+    "Suggestions mobilier et couleurs",
+    "👉 Vous savez exactement quoi faire pour valoriser votre bien"
+    ],
     highlight: "Recommandé"
   },
   {
@@ -73,8 +73,9 @@ export const services = [
     "Tout de l'audit + compte rendu",
     "Visuels et projections 3D",
     "Accompagnement suivi (WhatsApp/Visio)",
-    "Support pendant 1 mois"],
-
+    "Support pendant 1 mois",
+    "👉 Un accompagnement complet pour sécuriser chaque décision"
+    ],
     highlight: "Solution complète"
   }]
 
