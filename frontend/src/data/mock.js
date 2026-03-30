@@ -228,7 +228,7 @@ export const faqs = [
 },
 {
   question: "Combien coûte une prestation de home staging ?",
-  answer: "Le tarif varie selon la surface du bien et l'étendue de la prestation. Nous proposons un devis personnalisé gratuit après une première visite. En moyenne, l'investissement représente 1 à 3% du prix de vente, mais permet souvent une plus-value de 5 à 10%."
+  answer: "Le tarif varie en fonction de la surface du bien et de l'étendue de la prestation. Nos services vont d'un audit avec conseils sur-mesure à une prise en charge complète, où nous orchestrons chaque détail de la valorisation de votre bien. En moyenne, l'investissement représente entre 1 et 3 % du prix de vente, et permet souvent de générer une plus-value de 5 à 10 %."
 },
 {
   question: "Combien de temps dure une prestation ?",
