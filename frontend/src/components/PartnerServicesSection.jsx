@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Camera, Users, Wrench, Sofa, Truck, Package } from 'lucide-react';
+import { Sparkles, Camera, Users, Wrench, Sofa, Truck, Package, PaintBucket } from 'lucide-react';
 
 const partnerServices = [
   {
@@ -21,6 +21,11 @@ const partnerServices = [
     icon: Wrench,
     title: "Petits Travaux",
     description: "Bricoleurs pour réparations et finitions"
+  },
+  {
+    icon: PaintBucket,
+    title: "Peinture",
+    description: "Travaux de peinture et rafraîchissement"
   },
   {
     icon: Sofa,
@@ -53,7 +58,7 @@ const PartnerServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 max-w-7xl mx-auto">
           {partnerServices.map((service, index) => {
             const IconComponent = service.icon;
             return (
