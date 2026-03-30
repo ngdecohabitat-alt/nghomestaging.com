@@ -37,8 +37,8 @@ export const services = [
     features: [
     "Analyse de votre bien à partir de photos/vidéos",
     "Visio 1h avec recommandations personnalisées",
-    "Compte rendu PDF clair et actionnable",
-    "👉 Idéal si vous êtes éloigné ou souhaitez un premier avis rapide",
+    "Compte rendu PDF structuré",
+    "👉 pour vous guider après la visio",
     "⚠️ Basé uniquement sur vos visuels – pour une analyse complète, un audit sur place est recommandé"
     ],
     highlight: "💻 100% à distance"
