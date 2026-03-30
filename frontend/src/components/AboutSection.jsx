@@ -35,7 +35,7 @@ const AboutSection = () => {
             
             <h2 className="text-4xl md:text-5xl font-bold text-brand-black mb-6 font-display">
               Votre partenaire home staging en{' '}
-              <span className="text-brand-gold">Moselle & Luxembourg</span>
+              <span className="text-brand-gold">Moselle Ouest & Luxembourg</span>
             </h2>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">

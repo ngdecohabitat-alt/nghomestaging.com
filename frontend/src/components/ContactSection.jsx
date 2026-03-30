@@ -225,7 +225,7 @@ const ContactSection = () => {
                 </div>
                 <div className="flex items-center space-x-3 mb-6">
                   <CheckCircle className="w-5 h-5 text-brand-gold" />
-                  <span className="text-sm">Intervention rapide en Moselle & Luxembourg</span>
+                  <span className="text-sm">Intervention rapide en Moselle Ouest & Luxembourg</span>
                 </div>
                 
                 {/* Social Media in Contact Section */}

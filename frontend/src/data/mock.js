@@ -3,7 +3,7 @@
 export const companyInfo = {
   name: "NG Home Staging",
   tagline: "Vendez plus vite et au meilleur prix grâce au home staging",
-  location: "Basse-Ham, Moselle",
+  location: "Basse-Ham, Moselle Ouest",
   serviceArea: "Nous intervenons à 30 km autour de Thionville. Nous contacter pour autres localisations.",
   phone: "+33 6 30 21 80 17",
   email: "ngdeco.habitat@gmail.com",
@@ -216,7 +216,7 @@ export const benefits = [
 },
 {
   title: "Accompagnement Local",
-  description: "Une expertise de terrain en Moselle et Luxembourg avec une réactivité immédiate.",
+  description: "Une expertise de terrain en Moselle Ouest et Luxembourg avec une réactivité immédiate.",
   icon: "mapPin"
 }];
 
@@ -235,8 +235,8 @@ export const faqs = [
   answer: "Une prestation complète de home staging se réalise généralement en 2 à 4 semaines, de la première visite à la mise en scène finale. Pour un coaching déco, comptez 1 à 2 semaines selon vos besoins."
 },
 {
-  question: "Intervenez-vous uniquement en Moselle ?",
-  answer: "Nous intervenons principalement en Moselle et au Luxembourg. N'hésitez pas à nous contacter pour tout projet dans ces zones, nous nous déplaçons rapidement."
+  question: "Intervenez-vous uniquement en Moselle Ouest ?",
+  answer: "Nous intervenons principalement en Moselle Ouest et au Luxembourg. N'hésitez pas à nous contacter pour tout projet dans ces zones, nous nous déplaçons rapidement."
 },
 {
   question: "Le home staging garantit-il la vente ?",

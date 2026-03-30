@@ -26,7 +26,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Expert en home staging et valorisation immobilière en Moselle et Luxembourg. 
+              Expert en home staging et valorisation immobilière en Moselle Ouest et Luxembourg. 
               Nous transformons vos biens pour créer le coup de cœur qui accélère la vente.
             </p>
             <div className="flex items-center space-x-3 mb-4">
