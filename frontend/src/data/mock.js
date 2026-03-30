@@ -33,8 +33,10 @@ export const services = [
   {
     name: "Conseil à Distance",
     price: "150 € - 180 €",
-    duration: "Visuels + Analyse",
+    duration: "Visuels + Visio 1h",
     features: [
+    "Analyse de votre bien à partir de photos/vidéos",
+    "Visio 1h avec recommandations personnalisées",
     "Compte rendu PDF clair et actionnable",
     "👉 Idéal si vous êtes éloigné ou souhaitez un premier avis rapide",
     "⚠️ Basé uniquement sur vos visuels – pour une analyse complète, un audit sur place est recommandé"
