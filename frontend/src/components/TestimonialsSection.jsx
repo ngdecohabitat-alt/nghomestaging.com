@@ -16,7 +16,7 @@ const TestimonialsSection = () => {
             <span className="text-brand-gold">notre priorité</span>
           </h2>
           <p className="text-lg text-gray-700">
-            Découvrez ce que nos clients disent de leur expérience avec NG Déco & Habitat.
+            Découvrez ce que nos clients disent de leur expérience avec NG Home Staging.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const TestimonialsSection = () => {
         {/* Note about testimonials */}
         <div className="text-center mt-12">
           <p className="text-sm text-gray-600 italic">
-            *Témoignages représentatifs de l'expérience client NG Déco & Habitat
+            *Témoignages représentatifs de l'expérience client NG Home Staging
           </p>
         </div>
       </div>

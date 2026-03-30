@@ -154,7 +154,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400">
-              © {currentYear} NG Déco & Habitat. Tous droits réservés.
+              © {currentYear} NG Home Staging. Tous droits réservés.
             </p>
             <p className="text-sm text-gray-400 flex items-center space-x-1">
               <span>Fait avec</span>

@@ -1,7 +1,7 @@
-// Mock data for NG Déco & Habitat website
+// Mock data for NG Home Staging website
 
 export const companyInfo = {
-  name: "NG Déco & Habitat",
+  name: "NG Home Staging",
   tagline: "Vendez plus vite et au meilleur prix grâce au home staging",
   location: "Basse-Ham, Moselle",
   serviceArea: "Nous intervenons à 30 km autour de Thionville. Nous contacter pour autres localisations.",
@@ -165,7 +165,7 @@ export const testimonials = [
     name: "Sophie M.",
     location: "Basse-Ham",
     rating: 5,
-    text: "Grâce à NG Déco & Habitat, notre maison s'est vendue en moins d'un mois ! La transformation était incroyable et les acheteurs ont eu le coup de cœur dès la première visite.",
+    text: "Grâce à NG Home Staging, notre maison s'est vendue en moins d'un mois ! La transformation était incroyable et les acheteurs ont eu le coup de cœur dès la première visite.",
     project: "Home staging complet"
   },
   {

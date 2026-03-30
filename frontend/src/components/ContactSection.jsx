@@ -268,7 +268,7 @@ const ContactSection = () => {
             <div className="relative h-64 rounded-lg overflow-hidden shadow-xl">
               <img 
                 src={images.contact}
-                alt="Contact NG Déco & Habitat"
+                alt="Contact NG Home Staging"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>

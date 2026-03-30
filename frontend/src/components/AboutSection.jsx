@@ -12,7 +12,7 @@ const AboutSection = () => {
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
               <img 
                 src={images.about}
-                alt="Intérieur élégant NG Déco & Habitat"
+                alt="Intérieur élégant NG Home Staging"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
