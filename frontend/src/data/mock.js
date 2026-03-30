@@ -4,7 +4,7 @@ export const companyInfo = {
   name: "NG Déco & Habitat",
   tagline: "Vendez plus vite et au meilleur prix grâce au home staging",
   location: "Basse-Ham, Moselle",
-  serviceArea: "Moselle, Meurthe et Moselle, Luxembourg (me contacter pour d'autres zones)",
+  serviceArea: "Nous intervenons à 30 km autour de Thionville. Nous contacter pour autres localisations.",
   phone: "+33 6 30 21 80 17",
   email: "ngdeco.habitat@gmail.com",
   calendlyUrl: "https://calendly.com/ng-homestaging/appeldecouverte",
