@@ -144,6 +144,13 @@ const ServicesSection = () => {
                         )}
                       </div>
                     ))}
+                    
+                    {/* Explanatory Note */}
+                    <div className="mt-4 p-4 bg-brand-gold/10 rounded-lg border border-brand-gold/30">
+                      <p className="text-sm text-gray-700 italic">
+                        💡 L'audit sur place permet d'aller plus loin qu'un compte rendu, grâce à des échanges en direct et une analyse précise du bien.
+                      </p>
+                    </div>
                   </div>
                 )}
               </div>
