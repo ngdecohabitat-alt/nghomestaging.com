@@ -49,9 +49,10 @@ export const services = [
     duration: "1h30 - 2h",
     features: [
     "Visite complète du bien",
-    "Conseils oraux personnalisés",
-    "Synthèse des points clés",
-    "👉 Idéal pour identifier rapidement les axes d'amélioration",
+    "Conseils personnalisés en direct, pièce par pièce",
+    "Échanges et ajustements en temps réel",
+    "Synthèse écrite des points essentiels",
+    "👉 Un accompagnement sur place pour prendre les bonnes décisions immédiatement",
     "✨ Déduit de la facture si prestation complète signée"
     ],
     highlight: "Premier diagnostic"
