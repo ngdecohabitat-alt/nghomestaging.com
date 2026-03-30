@@ -9,7 +9,7 @@ const partnerServices = [
   },
   {
     icon: Camera,
-    title: "Reportage Photo Pro",
+    title: "Reportage Photo",
     description: "Photos professionnelles haute qualité"
   },
   {
