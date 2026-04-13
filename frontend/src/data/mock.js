@@ -95,7 +95,7 @@ export const services = [
   "Mise en scène finale"],
 
   icon: "palette",
-  price: "450 € - 750 €",
+  price: "à partir de 450 €",
   priceDetails: "jusqu'à 2 pièces",
   additionalPrice: "+150/200 € par pièce supplémentaire",
   note: "Hors location mobilier (en option) et achats spécifiques"
@@ -114,7 +114,7 @@ export const services = [
   "Photos professionnelles"],
 
   icon: "trendingUp",
-  price: "900 € - 1 800 €",
+  price: "à partir de 900 €",
   priceDetails: "selon taille du bien",
   note: "Hors location mobilier (en option) et achats spécifiques"
 }];
